@@ -1,0 +1,11 @@
+<DOCTYPE! html>
+<html>
+	<body>
+		<&= expenses.each do |c|>
+			<%= if c = :id %>
+			id = <%= c.id %> 
+			item = <%= c.name %>
+			price = <%= c.price %>
+	</body>
+</html>
+

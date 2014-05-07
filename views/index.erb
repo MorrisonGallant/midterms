@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+	<body>
+		<%= @expenses.each do |c|%>
+		item: <%= c[0].id %>
+		name: <%= c[0].name %>
+		price: <%= c[0].price %>
+		<& end &>
+		
+	</body>
+</html>
